@@ -3,7 +3,7 @@ Setting up Data Lake via Spark/Hadoop in AWS
 
 ## Overview
 
-The aim of this project is to move the data from S3 JSON log to Data Lake via spark programming to handle the metadata. loading the data back to my own S£ bucket as a set of dimensional tables, which is one of the essential procedure to build ETL pipeline under the duty of data engineer. 
+The aim of this project is to move the data from S3 JSON log to Data Lake via spark programming to handle the metadata. loading the data back to my own S3 bucket as a set of dimensional tables, which is one of the essential procedure to build ETL pipeline under the duty of data engineer. 
 
 ## Configuration 
 
