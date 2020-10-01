@@ -32,6 +32,6 @@ A star schema has been used which is very similar to the previous project under 
 ```artist_id```, ```name```, ```location```, ```lattitude```, ```longitude```
 
 - time - ```timestamps``` of records in songplays broken down into specific units
-```start_time```, ```hour```, ```day```, ```week```, ```month```, ```, weekday
+```start_time```, ```hour```, ```day```, ```week```, ```month```, ```year```, ```weekday```
 
 
