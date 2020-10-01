@@ -5,14 +5,14 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import udf, col
 from pyspark.sql.functions import year, month, dayofmonth, hour, weekofyear, date_format
 
-
+# configurating all the credential in AWS 
 config = configparser.ConfigParser()
 config.read('dl.cfg')
 
 os.environ['AWS_ACCESS_KEY_ID']=config['KEYS']['AWS_ACCESS_KEY_ID']
 os.environ['AWS_SECRET_ACCESS_KEY']=config['KEYS']['AWS_SECRET_ACCESS_KEY']
 
-
+# create a spark sesson using the spark and hadoop package
 def create_spark_session():
     spark = SparkSession \
         .builder \
@@ -20,7 +20,7 @@ def create_spark_session():
         .getOrCreate()
     return spark
 
-
+# processing the data 
 def process_song_data(spark, input_data, output_data):
     # get filepath to song data file
     song_data = os.path.join(input_data, "song_data/*/*/*/*.json")
