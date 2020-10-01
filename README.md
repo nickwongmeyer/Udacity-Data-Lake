@@ -15,4 +15,6 @@ As soon as the information of dl.cfg has been completed, run the ```etl.py``` vi
 
 A star schema has been used which is very similar to the previous project under data warehouse. Fact table is structured as ```songplays```, whereas ```artists```, ```songs```, ```time``` and ```users``` are regarded as dimensional tables. 
 
-** Fact Table
+**Fact Table
+
+
