@@ -39,4 +39,11 @@ A star schema has been used which is very similar to the previous project under 
 
 ```start_time```, ```hour```, ```day```, ```week```, ```month```, ```year```, ```weekday```
 
+## How to run
 
+- fill in the information of the AWS credential under dl.cfg
+
+- coding the ```etl.py``` file
+
+- enter ```python 3 etl.py``` under terminal
+- enter ```python 3 etl.py``` under terminal
