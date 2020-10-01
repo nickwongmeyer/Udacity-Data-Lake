@@ -1,5 +1,5 @@
 # Udacity-Data-Lake
-Setting up Data Lake via Spark/Hadoop in AWS
+Setting up Data Lake(cluster of master/slave) via Spark/Hadoop in AWS
 
 ## Overview
 
