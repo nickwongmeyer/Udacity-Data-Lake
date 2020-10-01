@@ -46,4 +46,4 @@ A star schema has been used which is very similar to the previous project under 
 - coding the ```etl.py``` file
 
 - enter ```python 3 etl.py``` under terminal
-- enter ```python 3 etl.py``` under terminal
+
